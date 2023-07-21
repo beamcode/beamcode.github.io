@@ -1,0 +1,7 @@
+- available / not available for work button (https://ryanpotter.co.nz/)
+- photo galarie
+- convert musicbars --> tailwind
+- burger cursor on burger emoji hover
+- blog + backend
+- maybe convert to nextjs
+- code better cos this website is shit
