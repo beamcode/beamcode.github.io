@@ -5,3 +5,4 @@
 - blog + backend
 - maybe convert to nextjs
 - code better cos this website is shit
+- all data to jsons
