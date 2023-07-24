@@ -1,4 +1,4 @@
-import pfp from "../assets/pfp.jpg";
+import pfp from "../assets/pfp_small.jpg";
 import NavBar from "./NavBar";
 import ThemeSetter from "../helpers/ThemeSetter";
 import ThemeToggleGray from "./ThemeToggleGray";

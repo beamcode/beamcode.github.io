@@ -16,6 +16,7 @@ export default function ThemeToggle({
         const img = new Image();
         img.src = src;
         img.onload = () => {
+            console.log("test");
             setUsedSrc(img.src);
             setUsedEffectStyle({ filter: 'blur(5px)', clipPath: 'inset(0)' });
         }

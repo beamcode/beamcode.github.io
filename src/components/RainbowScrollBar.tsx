@@ -23,9 +23,6 @@ export default function RainbowScrollBar() {
   }, []);
 
   return (
-    <div>
-      <div ref={progressRef} className='fixed top-0 right-0 w-[10px] rounded-bl-sm animate-rainbow bg-gradient-to-t from-[#008aff] to-[#00ffe7]' />
-      <div className='fixed top-0 right-0 w-[15px] h-full' />
-    </div>
+    <div ref={progressRef} className='fixed top-0 right-0 w-[10px] rounded-bl-sm animate-rainbow bg-gradient-to-t from-[#008aff] to-[#00ffe7]' />
   );
 };

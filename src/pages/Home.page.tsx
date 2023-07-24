@@ -1,4 +1,5 @@
 import website from "../assets/beamcodedev.png";
+import bagnole from "../assets/bagnole.png";
 import bounceMaster from "../assets/BounceMaster.png";
 import MacTerminal from "../components/Terminal";
 
@@ -42,7 +43,7 @@ function ProjectComponent({
               <h2 className="text-secondary-light shrink-0">{date}</h2>
             </div>
 
-            <div className="flex flex-wrap gap-2 text-[11px] dark:text-black drop-shadow-2xl">
+            <div className="flex flex-wrap gap-2 text-[11px] dark:text-black">
               {technologies.map((tech, i) => (
                 <span key={i} className="px-3 py-1 bg-secondary-light dark:bg-secondary-light rounded-md">{tech}</span>
               ))}
@@ -54,8 +55,8 @@ function ProjectComponent({
               {github_link && <a href={github_link} target="_blank" className="underline underline-offset-4">Github ↗</a>}
             </div>
           </div>
-          <div className="w-full rounded-t-lg sm:rounded-l-[0] overflow-hidden shadow cursor-pointer">
-            <a href={github_link} target="_blank">
+          <div className="rounded-tr-lg sm:rounded-l-[0] overflow-hidden md:min-w-[200px] md:max-w-[200px] shadow cursor-pointer">
+            <a href={demo_link ? demo_link : github_link} target="_blank">
               <img src={image} className="object-cover h-full transition duration-300 hover:scale-110" />
             </a>
           </div>
@@ -87,22 +88,31 @@ export default function HomePage() {
 
         <ul className="flex flex-col gap-10">
           <ProjectComponent
+            title="Bagnole"
+            date="In development"
+            technologies={["Nextjs", "Typescript", "TailwindCSS", "Prisma", "React Native"]}
+            image={bagnole}
+            description="Next generation car meet-up app. Find car events near you, meet new people and share your passion for cars"
+            demo_link="https://bagnoleapp.fr/"
+          />
+
+          <ProjectComponent
+            title="Personal Website"
+            date="07 / 2021"
+            technologies={["Reactjs", "Typescript", "TailwindCSS"]}
+            image={website}
+            description="A vibrant and dynamic personal website that showcases the best of who I am, highlighting my incredible work, valuable experiences, and infectious enthusiasm.."
+            demo_link="https://beamcode.dev"
+            github_link="https://github.com/beamcode/beamcode.dev"
+          />
+
+          <ProjectComponent
             title="BounceMaster"
             date="04 / 2021"
             technologies={["Unity", "C#"]}
             image={bounceMaster}
             description="A 2D platformer game made in Unity. The player controls a ball and must reach the end of the level by bouncing off of platforms and avoiding obstacles."
             github_link="https://github.com/beamcode/bounce_master"
-          />
-
-          <ProjectComponent
-            title="Personal Website"
-            date="07 / 2021"
-            technologies={["React", "Typescript", "TailwindCSS", "ViteJS"]}
-            image={website}
-            description="A vibrant and dynamic personal website that showcases the best of who I am, highlighting my incredible work, valuable experiences, and infectious enthusiasm.."
-            demo_link="https://beamcode.dev"
-            github_link="https://github.com/beamcode/beamcode.dev"
           />
         </ul>
       </div>

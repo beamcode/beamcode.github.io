@@ -4,7 +4,7 @@ import { Routes, Route, Outlet } from "react-router-dom";
 import NotFound from './pages/404.page';
 import AboutPage from './pages/About.page';
 import BlogPage from './pages/Blog.page';
-import SpotifyWidget from './components/SpotifyWidget';
+// import SpotifyWidget from './components/SpotifyWidget';
 import RainbowProgressBar from './components/RainbowScrollBar';
 import BurgerCursor from './components/BurgerCursor';
 // import ThemeToggle from './components/ThemeToggle';
@@ -21,9 +21,9 @@ function Layout() {
       <main className='px-4 md:px-6 pt-10 md:pt-20 pb-24 md:pb-44 max-w-[700px] mx-auto'>
         <Outlet />
       </main>
-      <div className='fixed flex bottom-0 right-0 z-10 p-5 w-full sm:w-[400px] transition delay-300'>
+      {/* <div className='fixed flex bottom-0 right-0 z-10 p-5 w-full sm:w-[400px] transition delay-300'>
         <SpotifyWidget className="w-full" />
-      </div>
+      </div> */}
     </div>
   )
 }
