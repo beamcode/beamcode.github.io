@@ -34,10 +34,10 @@ function ProjectComponent({
 }) {
   return (
     <li>
-      <section className="flex flex-col md:flex-row gap-1 md:gap-9">
-        <div className="flex flex-col-reverse sm:flex-row gap-5 w-full  overflow-hidden border-l-4 border-b-4 shadow-[0_15px_30px_rgba(200,_200,_200,_0.3)] rounded-bl-lg">
+      <section className="flex flex-col md:flex-row gap-1 md:gap-9 text-xs">
+        <div className="flex flex-col-reverse md:flex-row gap-4 w-full overflow-hidden border-l-4 border-b-4 shadow-[0_15px_30px_rgba(200,_200,_200,_0.3)] rounded-bl-lg">
 
-          <div className="grow space-y-5 p-6">
+          <div className="flex flex-col gap-5 grow p-4">
             <div className="flex items-center justify-between w-full">
               <h1 className="text-xl">{title}</h1>
               <h2 className="text-secondary-light shrink-0">{date}</h2>
@@ -55,8 +55,8 @@ function ProjectComponent({
               {github_link && <a href={github_link} target="_blank" className="underline underline-offset-4">Github ↗</a>}
             </div>
           </div>
-          <div className="rounded-tr-lg sm:rounded-l-[0] overflow-hidden md:min-w-[200px] md:max-w-[200px] shadow cursor-pointer">
-            <a href={demo_link ? demo_link : github_link} target="_blank">
+          <div className="flex rounded-tr-lg sm:rounded-l-[0] h-full overflow-hidden md:min-w-[200px] md:max-w-[200px] shadow cursor-pointer">
+            <a className="flex" href={demo_link ? demo_link : github_link} target="_blank">
               <img src={image} className="object-cover h-full transition duration-300 hover:scale-110" />
             </a>
           </div>

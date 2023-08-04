@@ -17,7 +17,7 @@ export default function AboutPage() {
 
       <div className="flex gap-6 animate-in">
         <div className='flex flex-col justify-between gap-10'>
-          <img src={pfp} className="md:hidden max-h-[300px] w-full rounded-[20px] border-r-8 border-gray-300 object-cover animate-in" />
+          <img src={pfp} className="hidden md:block max-h-[300px] w-full rounded-[20px] border-r-8 border-gray-300 object-cover animate-in" />
           <div className='flex flex-col gap-5'>
 
 

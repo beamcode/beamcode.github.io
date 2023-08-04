@@ -3,7 +3,7 @@ import HomePage from './pages/Home.page';
 import { Routes, Route, Outlet } from "react-router-dom";
 import NotFound from './pages/404.page';
 import AboutPage from './pages/About.page';
-import BlogPage from './pages/Blog.page';
+// import BlogPage from './pages/Blog.page';
 // import SpotifyWidget from './components/SpotifyWidget';
 import RainbowProgressBar from './components/RainbowScrollBar';
 import BurgerCursor from './components/BurgerCursor';
@@ -30,6 +30,7 @@ function Layout() {
 
 export default function App() {
   // document.documentElement.classList.add('dark');
+  console.log('%cWhatcha doing here?!', 'color: red; font-size: 30px; font-weight: bold;');
   document.body.classList.add('dark:bg-primary-main')
 
   return (
@@ -37,7 +38,7 @@ export default function App() {
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path="about" element={<AboutPage />} />
-        <Route path="blog" element={<BlogPage />} />
+        {/* <Route path="blog" element={<BlogPage />} /> */}
         <Route path='*' element={<NotFound />} />
       </Route>
     </Routes>
