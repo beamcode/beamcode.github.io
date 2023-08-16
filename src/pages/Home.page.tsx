@@ -10,7 +10,7 @@ function LookingForWork() {
         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
         <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
       </span>
-      <p>Available for new opportunities.</p>
+      <p>Available for new opportunities</p>
     </div>
   );
 }
@@ -34,7 +34,7 @@ function ProjectComponent({
 }) {
   return (
     <li>
-      <section className="flex flex-col md:flex-row gap-1 md:gap-9 text-xs">
+      <section className="flex flex-col md:flex-row gap-1 md:gap-9 text-xs bg-white dark:bg-secondary-dark">
         <div className="flex flex-col-reverse md:flex-row gap-4 w-full overflow-hidden border-l-4 border-b-4 shadow-[0_15px_30px_rgba(200,_200,_200,_0.3)] rounded-bl-lg">
 
           <div className="flex flex-col gap-5 grow p-4">
@@ -77,7 +77,7 @@ export default function HomePage() {
             {/* <h1 className="font-bold text-[40px] animate-wave origin-[70%_70%] hover:animate-wave-hover">🍔</h1> */}
           </div>
           <p className="animate-in text-secondary-light dark:text-secondary-dark whitespace-nowrap" style={{ "--index": 1 } as React.CSSProperties}>
-            I code stuff & enjoy traveling.
+            I code stuff & enjoy traveling
           </p>
           <LookingForWork />
         </div>
@@ -117,14 +117,11 @@ export default function HomePage() {
         </ul>
       </div>
 
-      <MacTerminal />
+      <div>
+        <p className="font-normal pb-6">Fake terminal made with TailwindCSS</p>
+        <MacTerminal />
+      </div>
+
     </div >
   )
 }
-
-{/* <div className='flex flex-col gap-4'>
-        <RandomQuotes />
-        <UsefullLinks />
-        <MacTerminal />
-        <GuestBook />
-      </div> */}

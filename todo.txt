@@ -1,4 +1,3 @@
-- available / not available for work button (https://ryanpotter.co.nz/)
 - photo galarie
 - convert musicbars --> tailwind
 - burger cursor on burger emoji hover

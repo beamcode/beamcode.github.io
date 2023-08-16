@@ -2,10 +2,10 @@
   "name": "personal_website",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://beamcode.dev/",
+  "homepage": "beamcode.dev",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'beamcode.dev' > dist/CNAME",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc && vite build",

@@ -18,9 +18,9 @@ export default function OtherSection() {
         </h1>
       </div>
 
-      <ol className="relative border-l border-gray-200 dark:border-[#363b3d]">
+      <ol className="relative border-l border-gray-200 dark:border-[gray]">
         <li className="mb-6 ml-4">
-          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[#2a2e30]" />
+          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[gray]" />
           <div className="mb-1 flex items-center gap-1">
             <svg
               width={20}
@@ -53,7 +53,7 @@ export default function OtherSection() {
         </li>
 
         <li className="mb-6 ml-4">
-          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[#2a2e30]" />
+          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[gray]" />
           <div className="mb-1 flex items-center gap-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ export default function OtherSection() {
         </li>
 
         <li className="mb-6 ml-4">
-          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[#2a2e30]" />
+          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[gray]" />
           <div className="mb-1 flex items-center gap-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +99,7 @@ export default function OtherSection() {
         </li>
 
         <li className="mb-6 ml-4">
-          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[#2a2e30]" />
+          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[gray]" />
           <div className="mb-1 flex items-center gap-1">
             <svg
               enableBackground="new 0 0 405.367 405.367"
@@ -140,7 +140,7 @@ export default function OtherSection() {
         </li>
 
         <li className="mb-6 ml-4">
-          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[#2a2e30]" />
+          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[gray]" />
           <div className="mb-1 flex items-center gap-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"

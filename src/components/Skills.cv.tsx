@@ -23,9 +23,9 @@ export default function SkillsSection() {
         </h1>
       </div>
 
-      <ol className="relative border-l border-gray-200 dark:border-[#363b3d]">
+      <ol className="relative border-l border-gray-200 dark:border-[gray]">
         <li className="mb-6 ml-4">
-          <span className="absolute -left-[6.6px] mt-[7.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[#2a2e30] " />
+          <span className="absolute -left-[6.6px] mt-[7.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[gray] " />
           <div className="mb-1 flex items-center gap-1">
             <svg width={20} viewBox="0 0 128 128">
               <g fill="#61DAFB">
@@ -45,7 +45,7 @@ export default function SkillsSection() {
         </li>
 
         <li className="mb-6 ml-4">
-          <span className="absolute -left-[6.6px] mt-[7.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[#2a2e30]" />
+          <span className="absolute -left-[6.6px] mt-[7.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[gray]" />
           <div className="mb-1 flex items-center gap-1">
             <svg width={20} viewBox="0 0 128 128">
               <path
@@ -97,7 +97,7 @@ export default function SkillsSection() {
         </li>
 
         <li className="mb-6 ml-4">
-          <span className="absolute -left-[6.6px] mt-[7.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[#2a2e30]" />
+          <span className="absolute -left-[6.6px] mt-[7.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[gray]" />
 
           <div className="mb-1 flex flex-wrap items-center gap-2">
             <div className="flex gap-1">
@@ -349,7 +349,7 @@ export default function SkillsSection() {
         </li>
 
         <li className="mb-6 ml-4">
-          <span className="absolute -left-[6.6px] mt-[7.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[#2a2e30]" />
+          <span className="absolute -left-[6.6px] mt-[7.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[gray]" />
           <div className="mb-1 flex items-center gap-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"

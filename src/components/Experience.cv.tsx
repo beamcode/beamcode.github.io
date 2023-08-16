@@ -20,14 +20,14 @@ export default function ExperienceSection() {
         </h1>
       </div>
 
-      <ol className="relative border-l border-gray-200 dark:border-[#363b3d]">
+      <ol className="relative border-l border-gray-200 dark:border-[gray]">
         <li className="mb-6 ml-4">
-          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[#2a2e30]" />
+          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[gray]" />
           <div className="mb-1 flex items-center gap-1">
             <h3 className="flex items-center text-lg font-semibold text-gray-900 dark:text-gray-200">
               Weel
             </h3>
-            <span className="mr-2 ml-3 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800 dark:bg-[#2a2e30] dark:text-[#6aa2e6]">
+            <span className="mr-2 ml-3 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800 dark:bg-[gray] dark:text-[white]">
               Latest
             </span>
           </div>
@@ -43,7 +43,7 @@ export default function ExperienceSection() {
         </li>
 
         <li className="mb-6 ml-4">
-          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[#2a2e30]" />
+          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[gray]" />
           <div className="mb-1 flex items-center gap-1">
             <h3 className="flex items-center text-lg font-semibold text-gray-900 dark:text-gray-200">
               Denarius
@@ -59,7 +59,7 @@ export default function ExperienceSection() {
         </li>
 
         <li className="mb-6 ml-4">
-          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[#2a2e30]" />
+          <span className="absolute -left-[6.6px] mt-[8.5px] flex h-3 w-3 items-center justify-center rounded-full bg-blue-200 dark:bg-[gray]" />
           <div className="mb-1 flex items-center gap-1">
             <h3 className="flex items-center whitespace-nowrap text-lg font-semibold text-gray-900 dark:text-gray-200">
               Titan Fleet Training
